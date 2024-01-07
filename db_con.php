@@ -1,9 +1,15 @@
 <?php  
 
 $sName = "localhost";
-$uName = "root";
-$pass  = "";
-$db_name = "makefo";
+$uName = "makerjzo_edson";
+$pass  = "Eddiespacks2000@";
+$db_name = "makerjzo_makefoventures";
+
+// // when offline
+// $sName = "localhost";
+// $uName = "root";
+// $pass  = "";
+// $db_name = "makefo";
 
 try {
 	$conn = new PDO("mysql:host=$sName;dbname=$db_name", $uName, $pass);
