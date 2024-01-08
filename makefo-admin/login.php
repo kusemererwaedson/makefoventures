@@ -72,7 +72,7 @@ include("../db_con.php")
                     <button type="submit" name='makefo_login'
                         class="w-100 p-3 bg-primary my-2 text-white">Login</button>
                 </form>
-                <!-- <a href="#" class="text-center nav-link p-2">Forgot Password</a> -->
+                <a href="reset_password.php" class="text-center nav-link p-2">Forgot Password</a>
             </div>
         </div>
     </div>
